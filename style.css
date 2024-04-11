@@ -1,7 +1,32 @@
-;:root{
-    --cor-de-fundo:#C0D9D9;
+@import url('https://fonts.googleapis.com/css2?family-Chakra+Petch:w ght@400:700&display=swap'); 
+
+:root{
+    --cor-de-fundo:#ffa500;
     --verde: #6fff57;
     --branco: #ffffff;
     --botao-ativo: #3a375e;
     --botao-inativo: rgba(58, 55,94, 0.5);
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco);
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.titulo-principal{
+    text-align: left;
+    width: 100%;
+    font-size: 32px;
 }
